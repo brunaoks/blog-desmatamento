@@ -6,25 +6,25 @@
 
 ## 🔆 Light mode
 
-<div align="center">
+<!-- <div align="center">
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
-</div>
+</div> -->
 
 ## 🌙 Dark mode
 
-<div align="center">
+<!-- <div align="center">
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
 <img src="#" width="450px" />
-</div>
+</div> -->
 
 > Um blog feito para promover a conscientização e ação em relação ao desmatamento. Desenvolvido em HTML5, CSS3 e JavaScript. Para acessar o projeto <a href="https://brunaoks.github.io/blog-desmatamento/" target="_blank">Clique aqui.</a>
 
