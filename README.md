@@ -32,7 +32,8 @@
 
 O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
 
-- [ ] Responsividade. <br>
+- [ ] Conteúdo <br>
+- [ ] Responsividade
 
 ## 💻 Pré-requisitos
 
