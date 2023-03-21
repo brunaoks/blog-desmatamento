@@ -7,7 +7,7 @@
   --hover: #22b42e;
   --big-font: 2.8rem;
   --medium-font: 1.8rem;
-  --p-font: 1.2rem;
+  --p-font: 1.5rem;
 }
 
 * {
@@ -73,9 +73,25 @@ li i {
 .main-container {
   display: flex;
   justify-content: center;
-  align-items: center;
+  margin-top: 7rem;
+  max-width: 80vw;
   height: 93vh;
+}
+
+.title-main {
+  font-weight: 550;
   font-size: var(--big-font);
+  color: var(--main-color);
+}
+
+.text-content {
+  font-size: var(--p-font);
+}
+
+#img-main {
+  margin-top: 3rem;
+  height: 40rem;
+  width: auto;
 }
 
 .footer {
