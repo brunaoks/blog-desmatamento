@@ -5,9 +5,9 @@
   --bg-color: #141414;
   --text-color: #fff;
   --hover: #22b42e;
-  --big-font: 2.8rem;
+  --big-font: 2.9rem;
   --medium-font: 1.8rem;
-  --p-font: 1.5rem;
+  --p-font: 1.6rem;
 }
 
 * {
@@ -42,19 +42,29 @@ body {
 }
 
 .header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   display: flex;
-  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
-  margin: 2rem 4rem;
+  background: var(--bg-color);
   font-size: var(--medium-font);
+  padding: 1rem 4%;
+  transition: 0.2s;
 }
 
 .navbar {
   display: flex;
   flex-direction: row;
-  gap: 3.5rem;
+  gap: 3rem;
   font-size: var(--medium-font);
-  height: 7vh;
+}
+
+#logo {
+  width: 6.5rem;
+  height: auto;
 }
 
 li a {
@@ -72,24 +82,47 @@ li i {
 
 .main-container {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  margin-top: 7rem;
+  margin: 12rem 13rem 2rem;
   max-width: 80vw;
-  height: 93vh;
 }
 
-.title-main {
-  font-weight: 550;
+
+.main-title, .about-title, .consequence-title {
+  font-weight: 600;
   font-size: var(--big-font);
   color: var(--main-color);
+  margin: 2rem 0 2rem 0;
 }
 
-.text-content {
+.about-container, .consequence-container {
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+  margin: 0rem 13rem
+}
+
+.content {
   font-size: var(--p-font);
 }
 
+.primary-content, .secondary-content, .about-content, .consequence-content {
+  width: 80vw;
+}
+
+.content {
+  line-height: 1.8;
+  margin-top: 2rem;
+}
+
+.hiper-link {
+  color: #2A76BD;
+  text-decoration: underline;
+}
+
 #img-main {
-  margin-top: 3rem;
+  margin: 3rem 0 3rem 0;
   height: 40rem;
   width: auto;
 }
@@ -108,5 +141,5 @@ li i {
 }
 
 .footer-text {
-  font-size: var(--p-font);
+  font-size: 1.2rem;
 }

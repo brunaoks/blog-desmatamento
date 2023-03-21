@@ -13,29 +13,89 @@
   <div class="container">
     <header class="header">
       <div class="logo">
-        <p>LOGO</p>
+        <img src="src/img/logo.png" alt="logo-desmatamento" id="logo">
       </div>
-      <ul class="navbar" id="home">
+      <ul class="navbar">
         <li><a href="#home">Início</a></li>
         <li><a href="#about">Sobre</a></li>
-        <li><a href="#main">Principal</a></li>
-        <li><a href="#contact">Contato</a></li>
+        <li><a href="#consequence">Consequências</a></li>
         <li><i class="fa-solid fa-circle-half-stroke" id="switchTheme"></i></li>
       </ul>
     </header>
 
-    <section class="main">
+    <section class="main" id="home">
       <div class="main-container">
         <div class="main-content">
-          <h1 class="title-main">Desmatamento no Brasil: como começou, causas e cenário atual</h1>
-          <p class="text-content">Entenda como começou o desmatamento no Brasil, quais são as principais causas e as
+          <h1 class="main-title">Desmatamento no Brasil: como começou, causas e cenário atual</h1>
+          <p class="content">Entenda como começou o desmatamento no Brasil, quais são as principais causas e as
             consequências da devastação.</p>
-          <img src="src/img/imagem1.jpg" alt="Imagem-desmatamento" id="img-main">
+          <img src="src/img/img-main.jpg" alt="Imagem-desmatamento" id="img-main">
+        </div>
+        <div class="primary-content" id="about">
+          <p class="content">
+            O desmatamento no Brasil se deve principalmente à expansão das fronteiras agrícolas do
+            país, mas as
+            florestas também são destruídas por outros motivos, como construção de estradas, usinas hidrelétricas e
+            atividades de mineração. <br>
+
+            Esse processo tem causado alguns impactos negativos ao meio ambiente, levando ao desequilíbrio da
+            biodiversidade brasileira e à redução da cobertura vegetal do país.</p>
+        </div>
+        <div class="secondary-content">
+          <p class="content">
+            Segundo a pesquisa <a
+              href="https://www.ibge.gov.br/estatisticas/multidominio/meio-ambiente/34822-contas-economicas-ambientais-da-terra.html?=&t=acesso-ao-produto"
+              target="_blank" class="hiper-link">
+              Contas Econômicas Ambientais da Terra:</a> Contabilidade Física, do IBGE (Instituto
+            Brasileiro de Geografia e Estatística), o Brasil perdeu cerca de 513 mil km² de área verde nos últimos anos,
+            o
+            equivalente a 6% do território nacional.
+          </p>
         </div>
       </div>
     </section>
 
-    <canvas id="graphic"></canvas>
+    <section class="about">
+      <div class="about-container">
+        <div class="about-content">
+          <h1 class="about-title">O que é o desmatamento?</h1>
+          <p class="content">O desmatamento é a retirada total ou parcial da cobertura vegetal de um local, que impacta
+            a biodiversidade e causa um desequilíbrio ao meio ambiente. Trata-se de um dos principais problemas
+            ambientais enfrentados pelo Brasil.</p>
+          <p class="content">
+            Embora o país apresente mais de 50% do seu território coberto por florestas, entre 1985 e 2019 cerca de 10%
+            da vegetação nativa deixou de existir.
+          </p>
+          <p class="content">
+            O Brasil está entre os primeiros na lista dos países que mais desmatam. O desmatamento da Amazônia tem sido
+            o mais preocupante, já que as taxas voltaram a subir nos últimos anos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="consequence" id="consequence">
+      <div class="consequence-container">
+        <div class="consequence-content">
+          <h1 class="consequence-title">Consequências do desmatamento</h1>
+          <p class="content">
+            As consequências do desmatamento não se restringem ao ambiente, mas também afetam a vida
+            dos seres humanos. Em decorrência do desmatamento pode-se observar a perda da biodiversidade, pois afeta
+            diretamente o habitat de muitas espécies, podendo causar até a extinção.
+          </p>
+          <p class="content">
+            As mudanças climáticas e o efeito estufa agravam-se com o desmatamento, já que as
+            florestas, por exemplo, fornecem umidade ao ambiente. Também, é possível observar a diminuição do ritmo e
+            frequência de chuvas.
+          </p>
+          <p class="content">
+            Outro recurso natural afetado com o desmatamento é o solo, pois aumenta-se o processo de
+            erosão, perda de nutrientes e a desertificação.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <canvas id="graphic"></canvas> -->
 
     <footer class="footer">
       <div class="footer-content">
@@ -46,7 +106,7 @@
 
   <script src="./src/js/main.js"></script>
   <script src="https://kit.fontawesome.com/bec7f799bd.js" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/chart.js"></script> -->
 </body>
 
 </html>
