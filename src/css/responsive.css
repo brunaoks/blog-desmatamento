@@ -1,9 +1,43 @@
 :root {
-  --main-color: #fbff00;
+  --main-color: #208b29;
   --bg-color: #141414;
   --text-color: #fff;
-  --hover: #fbff00;
-  --big-font: 3.2rem;
+  --hover: #22b42e;
+  --big-font: 2.9rem;
   --medium-font: 1.8rem;
-  --p-font: 0.941rem;
+  --p-font: 1.6rem;
+}
+
+@media (max-width: 770px) {
+  #btn-mobile {
+    display: block;
+  }
+
+  .navbar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    top: 70px;
+    right: 0;
+    background: var(--bg-color);
+    height: 0;
+    transition: .5s;
+    z-index: 10000;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+
+  #nav.active .navbar {
+    height: calc(100vh - 70px);
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  .navbar li {
+    padding: 1.5rem;
+    /* margin: 0 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -6,6 +6,17 @@ function switchTheme() {
   document.body.style.transition = "0.5s";
 }
 
+const btnMobile = document.getElementById("btn-mobile");
+
+function toggleMenu(ev) {
+  if (ev.type === "touchstart") ev.preventDefault();
+  const nav = document.getElementById("nav");
+  nav.classList.toggle("active");
+}
+
+btnMobile.addEventListener("click", toggleMenu);
+btnMobile.addEventListener("touchstart", toggleMenu);
+
 /* var dados = {
   labels: [
     "Jan",

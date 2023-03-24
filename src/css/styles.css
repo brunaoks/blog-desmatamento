@@ -67,6 +67,11 @@ body {
   height: auto;
 }
 
+#btn-mobile {
+  cursor: pointer;
+  display: none;
+}
+
 li a {
   color: var(--text-color);
 }
