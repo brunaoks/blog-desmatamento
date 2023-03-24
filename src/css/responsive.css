@@ -21,7 +21,7 @@
     right: 0;
     background: var(--bg-color);
     height: 0;
-    transition: .5s;
+    transition: .6s;
     z-index: 10000;
     visibility: hidden;
     overflow-y: hidden;
