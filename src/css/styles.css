@@ -72,11 +72,11 @@ body {
   display: none;
 }
 
-li a {
+li a, i {
   color: var(--text-color);
 }
 
-li a:hover {
+li a:hover, i:hover {
   color: var(--hover);
   transition: 0.5s;
 }
@@ -94,14 +94,14 @@ li i {
 }
 
 
-.main-title, .about-title, .consequence-title {
+.main-title, .about-title, .consequence-title, .in-brazil-title {
   font-weight: 600;
   font-size: var(--big-font);
   color: var(--main-color);
   margin: 2rem 0 2rem 0;
 }
 
-.about-container, .consequence-container {
+.about-container, .consequence-container, .in-brazil-container {
   display: flex;
   justify-content: center;
   max-width: 80vw;
@@ -112,7 +112,7 @@ li i {
   font-size: var(--p-font);
 }
 
-.primary-content, .secondary-content, .about-content, .consequence-content {
+.primary-content, .secondary-content, .about-content, .consequence-content, .in-brazil-content {
   width: 80vw;
 }
 
