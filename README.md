@@ -58,7 +58,7 @@ Execute o arquivo "index.html"
 ```
 
 ## 🌎 Colaboradores do projeto
- <div align="left">
+<div align="left">
       <a href="https://github.com/brunaoks/blog-desmatamento/graphs/contributors">
       <img src="https://contrib.rocks/image?repo=brunaoks/blog-desmatamento" />
       </a>
