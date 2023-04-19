@@ -72,11 +72,13 @@ body {
   display: none;
 }
 
-li a, i {
+li a,
+i {
   color: var(--text-color);
 }
 
-li a:hover, i:hover {
+li a:hover,
+i:hover {
   color: var(--hover);
   transition: 0.5s;
 }
@@ -93,26 +95,34 @@ li i {
   max-width: 80vw;
 }
 
-
-.main-title, .about-title, .consequence-title, .in-brazil-title {
+.main-title,
+.about-title,
+.consequence-title,
+.in-brazil-title {
   font-weight: 600;
   font-size: var(--big-font);
   color: var(--main-color);
   margin: 2rem 0 2rem 0;
 }
 
-.about-container, .consequence-container, .in-brazil-container {
+.about-container,
+.consequence-container,
+.in-brazil-container {
   display: flex;
   justify-content: center;
   max-width: 80vw;
-  margin: 0rem 13rem
+  margin: 0rem 13rem;
 }
 
 .content {
   font-size: var(--p-font);
 }
 
-.primary-content, .secondary-content, .about-content, .consequence-content, .in-brazil-content {
+.primary-content,
+.secondary-content,
+.about-content,
+.consequence-content,
+.in-brazil-content {
   width: 80vw;
 }
 
@@ -122,12 +132,12 @@ li i {
 }
 
 .hiper-link {
-  color: #2A76BD;
+  color: #2a76bd;
   text-decoration: underline;
 }
 
 #img-main {
-  margin: 3rem 0 3rem 0;
+  margin: 1.5rem 0 3rem 0;
   height: 40rem;
   width: auto;
 }
