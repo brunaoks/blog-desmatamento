@@ -1,4 +1,4 @@
-# Blog de Mapeamento de Desmatamento no Brasil
+# InfoQueimada
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/brunaoks/blog-desmatamento?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/brunaoks/blog-desmatamento?style=for-the-badge)
@@ -8,21 +8,11 @@
 
 <!-- <div align="center">
 <img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
 </div> -->
 
 ## 🌙 Dark mode
 
 <!-- <div align="center">
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
 <img src="#" width="450px" />
 </div> -->
 
@@ -39,7 +29,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações�
 
 - Um browser de sua preferência para visualização do projeto.
 
-## 🚀 Instalando Blog
+## 🚀 Instalando InfoQueimada
 
 Para instalar o blog, siga estas etapas:
 
@@ -49,7 +39,7 @@ Clone o repositório na sua máquina usando:
 git clone https://github.com/brunaoks/blog-desmatamento.git
 ```
 
-## ☕ Abrindo o blog
+## ☕ Abrindo o InfoQueimada
 
 Para abrir o blog, siga esta etapa:
 
@@ -58,6 +48,7 @@ Execute o arquivo "index.html"
 ```
 
 ## 🌎 Colaboradores do projeto
+
 <div align="left">
       <a href="https://github.com/brunaoks/blog-desmatamento/graphs/contributors">
       <img src="https://contrib.rocks/image?repo=brunaoks/blog-desmatamento" />
