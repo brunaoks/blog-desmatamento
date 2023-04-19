@@ -1,17 +1,12 @@
-# Blog de Mapeamento de Desmatamento no Brasil
+# InfoQueimada
 
-![GitHub repo size](https://img.shields.io/github/repo-size/brunaoks/blog-desmatamento?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/brunaoks/blog-desmatamento?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/brunaoks/blog-desmatamento?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/brunaoks/info-queimada?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/brunaoks/info-queimada?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/brunaoks/info-queimada?style=for-the-badge)
 
 ## 🔆 Light mode
 
 <!-- <div align="center">
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
 <img src="#" width="450px" />
 </div> -->
 
@@ -19,14 +14,9 @@
 
 <!-- <div align="center">
 <img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
-<img src="#" width="450px" />
 </div> -->
 
-> Um blog feito para promover a conscientização e ação em relação ao desmatamento. Desenvolvido em HTML5, CSS3 e JavaScript. Para acessar o projeto <a href="https://brunaoks.github.io/blog-desmatamento/" target="_blank">Clique aqui.</a>
+> Um blog feito para promover a conscientização e ação em relação ao desmatamento. Desenvolvido em HTML5, CSS3 e JavaScript. Para acessar o projeto <a href="https://brunaoks.github.io/info-queimada/" target="_blank">Clique aqui.</a>
 
 ## 🛠️ Ajustes e melhorias
 
@@ -39,17 +29,17 @@ O projeto ainda está em desenvolvimento e as próximas atualizações�
 
 - Um browser de sua preferência para visualização do projeto.
 
-## 🚀 Instalando Blog
+## 🚀 Instalando InfoQueimada
 
 Para instalar o blog, siga estas etapas:
 
 Clone o repositório na sua máquina usando:
 
 ```
-git clone https://github.com/brunaoks/blog-desmatamento.git
+git clone https://github.com/brunaoks/info-queimada.git
 ```
 
-## ☕ Abrindo o blog
+## ☕ Abrindo o InfoQueimada
 
 Para abrir o blog, siga esta etapa:
 
@@ -58,8 +48,9 @@ Execute o arquivo "index.html"
 ```
 
 ## 🌎 Colaboradores do projeto
+
 <div align="left">
-      <a href="https://github.com/brunaoks/blog-desmatamento/graphs/contributors">
-      <img src="https://contrib.rocks/image?repo=brunaoks/blog-desmatamento" />
+      <a href="https://github.com/brunaoks/info-queimada/graphs/contributors">
+      <img src="https://contrib.rocks/image?repo=brunaoks/info-queimada" />
       </a>
   </div>
